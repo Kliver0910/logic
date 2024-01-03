@@ -16,8 +16,8 @@
 
 #### 程式模組說明:<br>
 module dodgetgame(output reg [7:0]position_R, position_B, position_G, //8*8 LED,output reg [2:0]S,//LED的腳位,output reg touch, //是否有碰撞,input CLK, Clear, right, left, // 清除，左右，時脈output reg A,B,C,D,E,F,G, // 七段顯示分數,output reg [2:0]b,//life,output reg COM1,COM2//腳位 <br><br>
- left, rigjt -> 接到 4-bit SW.b,touch->接到16LED. A,B,C,D,E,F,G ->接到七段顯示器<br>
- Clear -> 接到 8-bit DIPSW.position_R, position_B, position_G ,S-> 接到8*8LED<br>
+ left, rigjt -> 4-bit SW.b,touch->16LED. A,B,C,D,E,F,G ->七段顯示器<br>
+ Clear ->  8-bit DIPSW.position_R, position_B, position_G ,S-> 8X8LED<br>
 *** 請加強說明程式邏輯 <br>
 
 #### Demo video: (請將影片放到雲端空間)
